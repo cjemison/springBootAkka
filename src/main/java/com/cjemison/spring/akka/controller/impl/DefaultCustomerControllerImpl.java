@@ -1,7 +1,7 @@
-package com.cjemison.spring.akkaExample.controller.impl;
+package com.cjemison.spring.akka.controller.impl;
 
-import com.cjemison.spring.akkaExample.controller.CustomerController;
-import com.cjemison.spring.akkaExample.controller.model.CustomerVO;
+import com.cjemison.spring.akka.controller.CustomerController;
+import com.cjemison.spring.akka.controller.model.CustomerVO;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,7 +26,7 @@ import scala.concurrent.Await;
 import scala.concurrent.Future;
 import scala.concurrent.duration.FiniteDuration;
 
-import static com.cjemison.spring.akkaExample.config.akka.SpringExtension.SPRING_EXTENSION_PROVIDER;
+import static com.cjemison.spring.akka.util.akka.SpringExtension.SPRING_EXTENSION_PROVIDER;
 
 /**
  * Created by cjemison on 4/4/17.

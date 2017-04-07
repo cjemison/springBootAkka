@@ -1,4 +1,4 @@
-package com.cjemison.spring.akkaExample.dao.eo;
+package com.cjemison.spring.akka.dao.eo;
 
 import java.io.Serializable;
 

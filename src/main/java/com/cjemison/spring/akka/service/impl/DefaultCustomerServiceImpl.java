@@ -1,9 +1,9 @@
-package com.cjemison.spring.akkaExample.service.impl;
+package com.cjemison.spring.akka.service.impl;
 
-import com.cjemison.spring.akkaExample.controller.model.CustomerVO;
-import com.cjemison.spring.akkaExample.dao.eo.CustomerEO;
-import com.cjemison.spring.akkaExample.dao.repository.CustomerRepository;
-import com.cjemison.spring.akkaExample.service.CustomerService;
+import com.cjemison.spring.akka.controller.model.CustomerVO;
+import com.cjemison.spring.akka.dao.eo.CustomerEO;
+import com.cjemison.spring.akka.dao.repository.CustomerRepository;
+import com.cjemison.spring.akka.service.CustomerService;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

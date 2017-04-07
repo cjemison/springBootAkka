@@ -1,4 +1,4 @@
-package com.cjemison.spring.akkaExample.controller.model;
+package com.cjemison.spring.akka.controller.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;

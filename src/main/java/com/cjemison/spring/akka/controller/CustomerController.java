@@ -1,6 +1,6 @@
-package com.cjemison.spring.akkaExample.controller;
+package com.cjemison.spring.akka.controller;
 
-import com.cjemison.spring.akkaExample.controller.model.CustomerVO;
+import com.cjemison.spring.akka.controller.model.CustomerVO;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;

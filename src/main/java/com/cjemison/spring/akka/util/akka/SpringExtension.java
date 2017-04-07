@@ -1,4 +1,4 @@
-package com.cjemison.spring.akkaExample.config.akka;
+package com.cjemison.spring.akka.util.akka;
 
 import org.springframework.context.ApplicationContext;
 

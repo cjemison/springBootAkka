@@ -1,6 +1,6 @@
-package com.cjemison.spring.akkaExample.dao.repository;
+package com.cjemison.spring.akka.dao.repository;
 
-import com.cjemison.spring.akkaExample.dao.eo.CustomerEO;
+import com.cjemison.spring.akka.dao.eo.CustomerEO;
 
 import org.springframework.data.repository.CrudRepository;
 

@@ -1,6 +1,6 @@
-package com.cjemison.spring.akkaExample.service;
+package com.cjemison.spring.akka.service;
 
-import com.cjemison.spring.akkaExample.controller.model.CustomerVO;
+import com.cjemison.spring.akka.controller.model.CustomerVO;
 
 /**
  * Created by cjemison on 4/4/17.
