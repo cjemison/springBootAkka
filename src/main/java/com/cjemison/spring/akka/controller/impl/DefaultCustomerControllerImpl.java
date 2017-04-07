@@ -54,8 +54,13 @@ public class DefaultCustomerControllerImpl implements CustomerController {
     final Future<Object> awaitable = Patterns.ask(workerActor, customerVO, Timeout
           .durationToTimeout(duration));
     try {
-      CustomerVO customer = (CustomerVO) Await.result(awaitable, duration);
-      deferredResult.setResult(ResponseEntity.created(new URI("/v1/customer")).body(customer));
+      Object object = Await.result(awaitable, duration);
+      if (object instanceof CustomerVO) {
+        CustomerVO newCustomer = (CustomerVO) object;
+        deferredResult.setResult(ResponseEntity.created(new URI("/v1/customer")).body(newCustomer));
+      } else {
+        deferredResult.setErrorResult(ResponseEntity.badRequest().body(object));
+      }
     } catch (Exception e) {
       LOGGER.error("", e);
     }
